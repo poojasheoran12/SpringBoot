@@ -11,6 +11,16 @@ A **bean** is an object that is **instantiated, managed, and maintained by the S
 A **bean is like a pre-prepared ingredient in your kitchen** 🍳. Spring keeps it ready and gives it to whoever needs it in the app.
 
 ---
+## Layman Explanation of a Bean
+
+Think of a bean as a smart object that Spring creates, manages, and keeps track of for you.
+
+Normally in programming, if you want an object of a class, you write:
+
+val myService = MyService()
+
+
+But in Spring, instead of creating it yourself, Spring creates it once and keeps it safe for you to use anywhere. This object is called a bean.
 
 ## 2️⃣ Why Do We Need Beans?
 
